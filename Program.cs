@@ -15,7 +15,7 @@ namespace EventHubProcessorV5
       {
          var storageConn = "DefaultEndpointsProtocol=https;AccountName=chyastorage;AccountKey=uzMzvbJTKwrvFlwcnRQJrFUal6D4tz2YIgqJvFCDurFJuiGxGr/OHJtPdgbdkXjIa3O8YWKb2yzotRHfJGlQig==;EndpointSuffix=core.windows.net";
          var blobContainer = "event";
-         var hubConn = "Endpoint=sb://chyaeventhub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=//JboujWToYmJ2tytgSKApsCgERt2OC4O4/H5uXD7CQ=";
+         var hubConn = "Endpoint=sb://chyaeventhub.servicebus.windows.net/;SharedAccessKeyName=ListenToHub;SharedAccessKey=J0dmgUR6RM1o+PvloHQtejMrkES+TLQltCCwXYeQju0=;EntityPath=chyahub";
          var consumerGroup = "$Default";
          var hubName = "chyahub";
 
